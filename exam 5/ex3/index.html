@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex3</title>
+  </head>
+  <body>
+    <script>
+      function santab() {
+        for (let index = 1; index <= 100; index++) {
+          
+          let a = +prompt("san jaz 1-100");
+
+          if (a == 55) {
+            alert("taptyn");
+            break;
+          } else if (a > 55 && a <= 60) {
+            alert("sal tomen");
+          } else if (a < 55 && a >= 50) {
+            alert("sal biuk");
+          } else if (a > 60 && a <= 100) {
+            alert("tomen");
+          } else if (a < 50 && a >= 1) {
+            alert("biuk");
+          } else {
+            alert("1-100 jaz");
+          }
+        }
+        return a;
+      }
+
+      alert(santab());
+    </script>
+  </body>
+</html>

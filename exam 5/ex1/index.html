@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex1</title>
+  </head>
+  <body>
+    <script>
+      function esep(a, b, c, d) {
+        for (let index = 1; index <= 100; index++) {
+          var a = +prompt("san jaz");
+          var b = +prompt("san jaz");
+          var c = prompt("tanba jaz");
+          var d = 0;
+          if        (c == "*") {
+            d = a * b;
+            alert(d);
+          } else if (c == "/") {
+            d = a / b;
+            alert(d);
+          } else if (c == "-") {
+            d = a - b;
+            alert(d);
+          } else if (c == "+") {
+            d = a + b;
+            alert(d);
+          }else {
+            alert('san jaz')
+          }
+          
+        }
+       return a, b,c,d;
+      }
+       alert(esep());
+    </script>
+  </body>
+</html>
